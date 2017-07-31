@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/labadmin/AndroidStudioProjects/NewYorkTimesSearch/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="671d4ce71e109d63596d4a78ad9467a1c575b439">
+        <dex dex="/Users/labadmin/AndroidStudioProjects/NewYorkTimesSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e873ba52d04ceff6f8a501274eb1563458b8ad1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/labadmin/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/1.1.6/2a06b6b1ecf5dadee8a874dfb51ad018fde3e6c5/parceler-api-1.1.6.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="2a06b6b1ecf5dadee8a874dfb51ad018fde3e6c5">
         <dex dex="/Users/labadmin/AndroidStudioProjects/NewYorkTimesSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/parceler-api-1.1.6_7db2e47057b6432461877560773f0bb8b4b5aee1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/labadmin/AndroidStudioProjects/NewYorkTimesSearch/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="0f5fc4dfe9e659aff05693e4771f5a7fbb55b78b">
-        <dex dex="/Users/labadmin/AndroidStudioProjects/NewYorkTimesSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e873ba52d04ceff6f8a501274eb1563458b8ad1/classes.dex" />
     </item>
 
 </items>

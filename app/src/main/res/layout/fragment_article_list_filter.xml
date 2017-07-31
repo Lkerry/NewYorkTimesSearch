@@ -81,7 +81,7 @@
         android:id="@+id/cbArts" />
 
     <CheckBox
-        android:text="fashiond style"
+        android:text="Fashion Style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"

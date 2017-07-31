@@ -16,6 +16,8 @@ import java.util.ArrayList;
 public class Article  {
     String webURL;
     String headline;
+    String sectionName;
+    String thumbNail;
 
     public String getThumbNail() {
         return thumbNail;
@@ -29,7 +31,9 @@ public class Article  {
         return webURL;
     }
 
-    String thumbNail;
+
+
+
 
     public Article() {
 
@@ -39,6 +43,7 @@ public class Article  {
 
         this.webURL = jsonObject.getString("web_url");
         this.headline = jsonObject.getJSONObject("headline").getString("main");
+
         JSONArray multimedia = jsonObject.getJSONArray("multimedia");
         if (multimedia.length() > 0) {
             JSONObject multimediaObject = multimedia.getJSONObject(0);

@@ -27,10 +27,12 @@ public class ArticleArrayAdapter extends ArrayAdapter<Article> {
     private static class ViewHolder {
         ImageView ivImage;
         TextView  tvTitle;
+
     }
 
     private static class TextOnlyViewHolder {
         TextView  tvTitle;
+        TextView section;
     }
 
     @NonNull
@@ -53,6 +55,8 @@ public class ArticleArrayAdapter extends ArrayAdapter<Article> {
 
                 // find the title view
                 viewHolder.tvTitle = (TextView) convertView.findViewById(R.id.tvTitle);
+
+                
             } else {
                 // get the view holder associated with the recycled convertView
                 viewHolder = (TextOnlyViewHolder) convertView.getTag(R.string.text_only_view_holder);
@@ -60,6 +64,10 @@ public class ArticleArrayAdapter extends ArrayAdapter<Article> {
 
             // set the title on the view holder
             viewHolder.tvTitle.setText(article.getHeadline());
+            
+            //section
+
+
         }
         else {
             ViewHolder viewHolder;
